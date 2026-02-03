@@ -1,0 +1,22 @@
+# Ignore compiled executables (no extension on macOS)
+*
+!*.*
+!*/
+!Makefile
+
+# Ignore specific compiled files if they have extensions
+*.o
+*.out
+*.dSYM/
+
+# Ignore VS Code settings (optional)
+.vscode/
+```
+
+Or a simpler version:
+```
+# Ignore all files without extension (executables)
+*
+!/**/
+!*.*
+!Makefile
