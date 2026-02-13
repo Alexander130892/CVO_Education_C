@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Compile all .c files in the current directory
-for file in *.c; do
+for file in Exercise*.c; do
     if [ -f "$file" ]; then
         echo "Compiling $file..."
         gcc "$file" -o "${file%.c}"
@@ -13,6 +13,4 @@ for file in *.c; do
     fi
 done
 
-echo "Done!"for file in *.c; do
-    gcc "$file" -o "${file%.c}"
-done
+echo "Done!"
