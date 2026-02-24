@@ -1,0 +1,105 @@
+Overview incoming flightdata:
+---------------------------------------
+| Parameter       | Value    | Unit   |
+---------------------------------------
+| Temperature     |   803.40 | C      |
+| Fuel            |   874.30 | L      |
+| Vertical Speed  |   475.20 | ft/min |
+| Altitude        |   560.00 | ft     |
+| Throttle        |   552.60 | %      |
+| Heading         |    79.30 | deg    |
+| Heading         |   693.00 | deg    |
+| Heading         |   374.20 | deg    |
+| Fuel            |   329.20 | L      |
+| Height          |   999.00 | ft     |
+| Altitude        |   219.00 | ft     |
+| Height          |   362.00 | ft     |
+| Pressure        |   750.00 | hPa    |
+| Speed           |   736.00 | km/h   |
+| Temperature     |    56.30 | C      |
+| Flaps           |   244.83 | deg    |
+| Temperature     |   803.00 | C      |
+| Fuel            |   421.50 | L      |
+| Altitude        |   607.00 | ft     |
+| Throttle        |   620.60 | %      |
+| Pressure        |   464.00 | hPa    |
+| Fuel            |   741.50 | L      |
+| Altitude        |   997.00 | ft     |
+| Height          |   541.00 | ft     |
+| Fuel            |   547.20 | L      |
+| Heading         |   365.90 | deg    |
+| Vertical Speed  |   895.20 | ft/min |
+| Speed           |   879.00 | km/h   |
+| Pressure        |   316.00 | hPa    |
+| Pressure        |   120.00 | hPa    |
+| Speed           |   336.00 | km/h   |
+| Height          |   396.00 | ft     |
+| Height          |   979.00 | ft     |
+| Altitude        |   597.00 | ft     |
+| Temperature     |   104.50 | C      |
+| Speed           |   683.00 | km/h   |
+| Heading         |   475.60 | deg    |
+| Height          |   673.00 | ft     |
+| Pressure        |   932.00 | hPa    |
+| Vertical Speed  |   860.50 | ft/min |
+| Throttle        |   890.70 | %      |
+| Height          |   685.00 | ft     |
+| Pressure        |   558.00 | hPa    |
+| Throttle        |   787.20 | %      |
+| Pressure        |   401.00 | hPa    |
+| Pressure        |   668.00 | hPa    |
+| Altitude        |   712.00 | ft     |
+| Heading         |   846.20 | deg    |
+| Height          |   733.00 | ft     |
+| Vertical Speed  |   738.70 | ft/min |
+| Altitude        |   814.00 | ft     |
+| Altitude        |   578.00 | ft     |
+| Vertical Speed  |    71.90 | ft/min |
+| Throttle        |   221.30 | %      |
+| Vertical Speed  |   973.70 | ft/min |
+| Height          |   648.00 | ft     |
+| Fuel            |   515.90 | L      |
+| Altitude        |   674.00 | ft     |
+| Height          |   578.00 | ft     |
+| Throttle        |   963.50 | %      |
+| Temperature     |   590.30 | C      |
+| Throttle        |   742.70 | %      |
+| Pressure        |   949.00 | hPa    |
+| Pressure        |   705.00 | hPa    |
+| Vertical Speed  |   106.90 | ft/min |
+| Heading         |    30.40 | deg    |
+| Speed           |   993.00 | km/h   |
+| Altitude        |   540.00 | ft     |
+| Temperature     |   525.70 | C      |
+| Heading         |   150.50 | deg    |
+| Altitude        |   578.00 | ft     |
+| Vertical Speed  |   643.50 | ft/min |
+| Vertical Speed  |    80.20 | ft/min |
+| Temperature     |   813.90 | C      |
+| Fuel            |   954.00 | L      |
+| Fuel            |   933.00 | L      |
+| Heading         |   357.80 | deg    |
+| Heading         |   876.00 | deg    |
+| Heading         |   944.60 | deg    |
+| Heading         |   656.20 | deg    |
+| Temperature     |   841.70 | C      |
+| Fuel            |   195.90 | L      |
+| Speed           |   438.00 | km/h   |
+| Throttle        |   605.80 | %      |
+| Temperature     |    55.10 | C      |
+| Altitude        |   705.00 | ft     |
+| Throttle        |   810.60 | %      |
+| Vertical Speed  |   776.30 | ft/min |
+| Flaps           |   706.12 | deg    |
+| Flaps           |   878.91 | deg    |
+| Altitude        |   876.00 | ft     |
+| Throttle        |   251.10 | %      |
+| Vertical Speed  |   614.60 | ft/min |
+| Pressure        |   925.00 | hPa    |
+| Fuel            |   633.30 | L      |
+| Vertical Speed  |   514.90 | ft/min |
+| Flaps           |   875.14 | deg    |
+| Altitude        |   689.00 | ft     |
+| Pressure        |   381.00 | hPa    |
+| Altitude        |   963.00 | ft     |
+---------------------------------------
