@@ -11,6 +11,11 @@
 
 # Ignore VS Code settings (optional)
 .vscode/
+
+# Ignore folder
+A Book On C/
+
+
 ```
 
 Or a simpler version:
