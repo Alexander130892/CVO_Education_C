@@ -39,7 +39,7 @@ void fakeData(int matrix[][2]){
     srand(time(NULL));
     for(int i=0; i < PACKET_COUNT ; i++){
         matrix[i][0]=rand()%10;
-        int limit = pow(10,3+parameterAccuracy[matrix[i][0]])+1;
+        int limit = pow(10,3+parameterAccuracy[matrix[i][0]])+1; //limit 1001 / 10001 / 100001 depending on accuracy
         matrix[i][1]=rand() % limit;
     }
     return;
@@ -49,7 +49,7 @@ void printData(int matrix[][2]){
     printf("---------------------------------------\n");
     printf("| %-15s | %-8s | %-6s |\n", "Parameter", "Value", "Unit");
     printf("---------------------------------------\n");
-    for(int i=0; i < PACKET_COUNT ; i++){
+    for(int i=0; i < PACKET_COUNT ; i++){ //matrix[i][0] is flightParameter enum, //matrix[i][1] is value
         printf("| %-15s | %8.2f | %-6s |\n", parameterNames[matrix[i][0]], matrix[i][1]/(pow(10.0,parameterAccuracy[matrix[i][0]])), parameterUnits[matrix[i][0]]);
     }
     printf("---------------------------------------\n");
