@@ -1,11 +1,7 @@
 # Ignore compiled executables (no extension)
-Les_1/Oefeningen_Les1/Excercise_*
-Les_1/Theorie_Les1/Les*
-Les_1/Theorie_Les1/Hello_World
-Lesson2_Types+Arrays+Sorting/Exercise_*
-Lesson2_Types+Arrays+Sorting/Lesson02_Theory
-Lesson2_Types+Arrays+Sorting/theory
-Lesson3_Flightdata+Structs+Pointers/Excercise_*
+*
+!*.*
+!*/
 
 # Ignore other build artifacts
 *.o
