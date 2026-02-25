@@ -20,6 +20,13 @@ int main(){
     for(int i=0;i<3;i++){
         printInfo(&books[i]);
     }
+    float input;
+    printf("Nieuwe prijs voor Lord of the Rings?:\n ");
+    scanf("%f",&input);
+    books[0].price=input;
+    printf("Update:\n ");
+    printInfo(&books[0]);
+
     return EXIT_SUCCESS;
 }
 
