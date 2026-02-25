@@ -11,3 +11,13 @@ RAND_MAX
         Minimum Value: The C standard guarantees that RAND_MAX is at least 32767 (\(2^{15}-1\)).
         Common Values:On many older systems or 16-bit environments, it is 32767.
         On many modern systems (like GNU C library/Linux), it is often \(2^{31}-1\) (2147483647).
+
+difference Mac vs Linux
+    Compiling Exercise_00_flightData.c...
+    /usr/bin/ld: /tmp/ccyZyzcO.o: in function fakeData':
+    Exercise_00_flightData.c:(.text+0xd8): undefined reference to pow'
+
+    Missing -lm Flag (Link Math Library)
+    pow lives in the math library (libm). On macOS it's linked automatically, but on Linux (including Raspberry Pi) you have to explicitly tell the linker to include it.
+        gcc Exercise_00_flightData.c -o Exercise_00_flightData -lm
+    The -lm flag means "link math library".
