@@ -1,27 +1,19 @@
-# Ignore compiled executables (no extension on macOS)
-*
-!*.*
-!*/
-!Makefile
+# Ignore compiled executables (no extension)
+Les_1/Oefeningen_Les1/Excercise_*
+Les_1/Theorie_Les1/Les*
+Les_1/Theorie_Les1/Hello_World
+Lesson2_Types+Arrays+Sorting/Exercise_*
+Lesson2_Types+Arrays+Sorting/Lesson02_Theory
+Lesson2_Types+Arrays+Sorting/theory
+Lesson3_Flightdata+Structs+Pointers/Excercise_*
 
-# Ignore specific compiled files if they have extensions
+# Ignore other build artifacts
 *.o
 *.out
 *.dSYM/
 
-# Ignore VS Code settings (optional)
+# Ignore VS Code settings
 .vscode/
 
-# Ignore folder
+# Ignore book folder
 A Book On C/
-A\ Book\ On\ C/
-
-```
-
-Or a simpler version:
-```
-# Ignore all files without extension (executables)
-*
-!/**/
-!*.*
-!Makefile
