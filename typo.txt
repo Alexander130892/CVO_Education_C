@@ -10,3 +10,8 @@ Les 2 -
     
     p17 Oef 10
         gebruik een '-' in printf --> gebruik een getal ...? 6=6 spaties, 10= 10 spaties etc
+
+
+Les 3 -
+    p5 vluchData[DataPakketNr][2] (Haakje staat verkeerd)
+    Const int AANTAL... (Const met hoofdletter)
